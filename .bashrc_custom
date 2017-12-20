@@ -1,0 +1,42 @@
+# File: $HOME/.bashrc_custom
+# THIS FILE IS A USER-CUSTOM BASHRC FILE TO KEEP CLEAN THE DEFAULT ~/.barshrc FILE.
+
+
+# Add a new line at the end of the command prompt
+#PS1=${PS1}\\n
+
+# Common
+#PS1=${PS1%?}
+
+# Common only user + \n
+#PS1='${debian_chroot:+($debian_chroot)\n}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+
+# No user nor machine name + \n
+#PS1='${debian_chroot:+($debian_chroot)\n}\[\033[01;32m\]\[\033[00m\]\[\033[01;34m\]\w\[\033[00m\]\$ '
+
+# Adds \n to actual
+#PS1="$PS1\n"
+
+# As parada do git fica loka
+
+
+# form#1
+#parse_git_branch() {
+#     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+#}
+
+#export PS1="\[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+
+
+# form#2
+force_color_prompt=yes
+color_prompt=yes
+parse_git_branch() {
+ git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+if [ "$color_prompt" = yes ]; then
+ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\]\[\033[01;34m\]\w\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\n $ '
+else
+ PS1='${debian_chroot:+($debian_chroot)}\w$(parse_git_branch)\n $ '
+fi
+unset color_prompt force_color_prompt
