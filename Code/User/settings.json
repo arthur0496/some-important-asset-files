@@ -1,0 +1,48 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "git.confirmSync": false,
+    "git.ignoreLegacyWarning": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "files.insertFinalNewline": true,
+    "editor.rulers": [
+      80,
+      90
+    ],
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "auto-close-tag.activationOnLanguage": [
+      "xml",
+      "php",
+      "blade",
+      "ejs",
+      "jinja",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "plaintext",
+      "markdown",
+      "vue",
+      "liquid",
+      "ruby",
+      "erb"
+    ],
+    "editor.quickSuggestionsDelay": 5,
+    "emmet.showSuggestionsAsSnippets": false,
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.triggerExpansionOnTab": false,
+    "emmet.showExpandedAbbreviation": "always",
+    "editor.minimap.maxColumn": 90,
+    "vsicons.projectDetection.disableDetect": true,
+    "workbench.iconTheme": "vscode-icons"
+  }
