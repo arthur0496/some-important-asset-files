@@ -1,0 +1,20 @@
+[]
+
+# Usage:
+# [TAG] BRIEF DESCRIPTION OF CHANGES DONE UNDER THAT TAG WITH FILENAMES
+#	
+# Tags:
+# ADD 	 -> for new files
+# DEL 	 -> for excluded files
+# MERGE  -> for signal merges
+# UPDATE -> for when you makes a change in the file
+# FIX		 -> for solving issues or failures in file
+# RENAME -> for when you rename a file
+# TEST   -> for test files (requires another tag alongside it)
+#
+# Examples:
+# [ADD] creates model file for person with initial validations. app/model/person.rb
+#
+# [TEST ADD] creates test file for person's model. test/models/person_test.rb
+# 
+# [FIX] bug on foo function from class RocksController. app/controller/rocks_controller.rb
