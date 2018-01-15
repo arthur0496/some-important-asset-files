@@ -18,3 +18,13 @@
 # [TEST ADD] creates test file for person's model. test/models/person_test.rb
 # 
 # [FIX] bug on foo function from class RocksController. app/controller/rocks_controller.rb
+#
+# ------------------------------------------------------------------------------
+# 
+# How to make a good commit message:
+# 
+# 1- the first line must be short and assertive
+# 2- never use $ git commit -m "" or $ git commit --message=<>
+# 3- link the commit to it's respective issue
+# 4- use line breaks godd@mn!
+# 
