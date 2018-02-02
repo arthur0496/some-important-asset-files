@@ -9,7 +9,7 @@
 # DEL 	 -> use for excluded files or methods
 # MERGE  -> use for signal merges
 # UPDATE -> use for when you makes a change in the file
-# FIX		 -> use for solving issues, bugs or failures in file
+# FIX    -> use for solving issues, bugs or failures in file
 # RENAME -> use for when you rename a file
 # TEST   -> use for test files (requires another tag alongside it)
 #
