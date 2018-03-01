@@ -28,7 +28,7 @@
       "jinja",
       "javascript",
       "javascriptreact",
-      "typescript",
+      // "typescript",
       "typescriptreact",
       "plaintext",
       "markdown",
@@ -44,5 +44,14 @@
     "emmet.showExpandedAbbreviation": "always",
     "editor.minimap.maxColumn": 90,
     "vsicons.projectDetection.disableDetect": true,
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "emmet.includeLanguages": {
+      "erb": "html",
+      "vue-html": "html",
+      "javascript": "javascriptreact"
+    },
+    "editor.scrollBeyondLastLine": true,
+    "git.autofetch": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0
   }
